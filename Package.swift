@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
             // Here we define our package's external dependencies
             // and from where they can be fetched:
-            .package(name: "SwiftAdvancedAtomicsCPackage", path: "/Users/fenyo/git/SwiftAdvancedAtomicsCPackage"),
+            .package(name: "SwiftAdvancedAtomicsCPackage", path: "/Users/fenyo/git3/SwiftAdvancedAtomicsCPackage"),
         ],
 
 
