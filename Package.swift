@@ -13,8 +13,8 @@ let package = Package(
     ],
 
     dependencies: [
-            .package(name: "SwiftAdvancedAtomicsCPackage", path: "../SwiftAdvancedAtomicsCPackage"),
-            .package(name: "iOSToolsMacros", path: "../iOSToolsMacros"),
+        .package(url: "https://github.com/AlexandreFenyo/SwiftAdvancedAtomicsCPackage", branch: "main"),
+        .package(url: "https://github.com/AlexandreFenyo/iOSToolsMacros", branch: "main"),
         ],
 
     targets: [
